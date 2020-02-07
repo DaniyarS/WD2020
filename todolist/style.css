@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: black;
+    color: yellow;
+    height: 50px;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+#main{
+    width: 500px;
+    margin: auto;
+    padding: 100px;
+}
+
+h1{
+    font-size: medium;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+input{
+    width: 300px;
+    border-radius: 5px;
+    border-style: groove;
+    margin-right: 10px;
+}
+
+#in{
+    position: relative;
+    margin-bottom: 10px;
+}
