@@ -23,10 +23,8 @@ h1{
     margin-bottom: 10px;
 }
 
-
-
 input{
-    width: 300px;
+    width: 90%;
     border-radius: 5px;
     border-style: groove;
     margin-right: 10px;
@@ -34,5 +32,42 @@ input{
 
 #in{
     position: relative;
+    margin-bottom: 10px;
+}
+
+#content input[type="checkbox"]{
+    width: 0.4cm;
+    float: left;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+#content input[type="checkbox"]:checked{
+	background-color:#000;
+    border-left-color:#06F;
+    border-right-color:#06F;
+}
+
+#content div{
+	border-bottom: 0.5px solid black;
+    width: 93%;
+    height: 0;
+	border-color: grey;
+	border-width: 0.5px;
+    padding: 30px;
+}
+
+#item_text{
+	text-decoration: none;
+	float: left;
+    width: 70%;
+}
+
+#delete{
+	float: right;
+	background-image: url("img/photo.jpg");
+	background-size: 20px;
+	width: 25px;
+	height: 25px;
+    outline: none;
     margin-bottom: 10px;
 }
