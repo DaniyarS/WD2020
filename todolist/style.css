@@ -11,10 +11,26 @@
     vertical-align: middle;
 }
 
+#hh{
+    text-decoration: none;
+    margin-left: 100px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
 #main{
     width: 500px;
     margin: auto;
     padding: 100px;
+}
+
+#add{
+    background-color: #06F;
+    border-style: hidden;
+    color: aliceblue;
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
 }
 
 h1{
