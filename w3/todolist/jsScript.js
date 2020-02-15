@@ -42,8 +42,5 @@ var index = 1;
         alert(td2+" -  new task was added");
     }
     
-    function deleteToDo(element){
-        var child = element.parentNode.id;
-        document.getElementById(child).remove();
-    }
+ 
     
