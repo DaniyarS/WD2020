@@ -25,11 +25,10 @@ export class CompanyListComponent implements OnInit {
       });
   }
 
-  deleteCompany(id) {
-    this.companyService.deleteCompany(id).subscribe(res => {
-        // this.categories = this.categories.filter(c => c.id != id);
-        // this.getCategoryList();
-    });
-  }
-
+  // deleteCompany(id) {
+  //   this.companyService.deleteCompany(id).subscribe(res => {
+  //       // this.categories = this.categories.filter(c => c.id != id);
+  //       // this.getCategoryList();
+  //   });
+  // }
 }
